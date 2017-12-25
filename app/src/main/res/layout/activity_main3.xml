@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/knowapp">
+
+    <CheckBox
+        android:layout_marginTop="50dp"
+        android:id="@+id/checkBox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="부모님이나 낯선 사람이 몸을 만져 불편한 적이 있었나요?"
+        android:layout_weight="0.05" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="누군가가 자신의 옷을 들춰 관찰해 기분이 나빴던 적이 있었나요?"
+        android:layout_weight="0.07" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="부모님이 야한 그림이나 사진을 보여주어 당황스러웠던 적이 있었나요?" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="부모님께서 손이나 발로 때려 멍이 들거나 상처가 든 적이 있었나요?"
+        android:layout_weight="0.07" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아무 잘못도 안 했는데 부모님이 매를 들어 때린적이 있었나요?"
+        android:layout_weight="0.06" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="형제나 친구와 비교, 차별, 편애를 하여 기분이 나빴던 적이 있었나요?" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="부모님이 화난 얼굴로 자신에게 심한 욕을 자주 했었나요?" />
+
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="부모님이 밥을 챙겨주시지 않은 적이 자주 있었나요?" />
+
+</LinearLayout>

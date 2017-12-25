@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fdf5e1"
+    tools:context="com.example.minkyung.ido.MainActivity3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:gravity="center"
+            android:layout_margin="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="#ffffff"
+            android:text="신고하기 전에 앞서 우발적으로 한 것은 아닌지 생각해보셨나요?"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/call"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="#ff5a5a"
+            android:text="call"
+            android:onClick="onClick"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/message"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ff5a5a"
+            android:onClick="onClick"
+            android:text="Message"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+    </LinearLayout>
+</LinearLayout>
+
